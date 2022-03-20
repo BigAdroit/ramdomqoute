@@ -1,0 +1,90 @@
+* {
+    margin: 0px auto;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    background-color: tomato;
+}
+section {
+    width:100%;
+    height:auto;
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height:90vh;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header {
+    text-align:center;
+    font-size: 2rem;
+    font-weight:500;
+    font-family: cursive;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.modal-box {
+    width: 100%;
+    border: 10px solid rgb(245, 233, 233);
+    height:inherit;
+    border-radius:20px;
+    background-color:rgb(95, 78, 75);
+    opacity:0.9
+}
+.quote-text {
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 80%;
+    margin: auto;
+    filter:brightness(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    font-family:cursive;
+    font-size:2rem;
+}
+span {
+    font-size:5rem;
+    font-weight:bold;
+    color:white;
+    text-align:right;
+}
+.message {
+    font-size: 1.5rem;
+    font-family: cursive;
+    padding: 20px 0px;
+    text-align:center;
+}
+@media (max-width:700px) {
+    .header{
+        font-size:1.5rem;
+    }
+    .message{
+        font-size: 1.2rem
+    }
+    .title {
+        font-size:1.3rem
+    }
+    .span {
+        font-size:2rem;
+    }
+    .container {
+        height: auto;
+    }
+}
